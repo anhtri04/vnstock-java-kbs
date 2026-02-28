@@ -181,9 +181,9 @@
     </build>
 
     <profiles>
-        <!-- Release profile for GPG signing -->
+        <!-- GPG signing profile for Maven Central -->
         <profile>
-            <id>release</id>
+            <id>gpg</id>
             <build>
                 <plugins>
                     <plugin>

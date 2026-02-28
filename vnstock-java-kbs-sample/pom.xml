@@ -12,7 +12,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.vnstock</groupId>
+    <groupId>io.github.anhtri04</groupId>
     <artifactId>vnstock-java-kbs-sample</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -46,7 +46,7 @@
 
         <!-- VNStock KBS Library -->
         <dependency>
-            <groupId>com.vnstock</groupId>
+            <groupId>io.github.anhtri04</groupId>
             <artifactId>vnstock-java-kbs</artifactId>
             <version>${vnstock.kbs.version}</version>
         </dependency>
@@ -72,7 +72,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.vnstock.kbs.sample.VnstockKbsSampleApplication</mainClass>
+                    <mainClass>io.github.anhtri04.kbs.sample.VnstockKbsSampleApplication</mainClass>
                 </configuration>
             </plugin>
             
