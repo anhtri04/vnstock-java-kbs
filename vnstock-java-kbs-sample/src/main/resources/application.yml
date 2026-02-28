@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: vnstock-kbs-sample
+
+vnstock:
+  kbs:
+    connect-timeout-seconds: 10
+    read-timeout-seconds: 30
+    max-retries: 3
+    language: 1  # 1 = Vietnamese, 2 = English
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+
+logging:
+  level:
+    com.vnstock.kbs: INFO
+    org.springframework.web: INFO
