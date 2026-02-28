@@ -23,7 +23,7 @@ Add to your `pom.xml`:
 <dependency>
     <groupId>com.vnstock</groupId>
     <artifactId>vnstock-java-kbs</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
