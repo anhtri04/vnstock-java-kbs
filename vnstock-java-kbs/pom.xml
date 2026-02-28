@@ -5,7 +5,7 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vnstock</groupId>
+    <groupId>io.github.anhtri04</groupId>
     <artifactId>vnstock-java-kbs</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
